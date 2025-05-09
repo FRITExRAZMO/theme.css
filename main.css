@@ -45,14 +45,34 @@
 }
 
 .visual-refresh:not(.platform-osx) .leading_c38106::after {
-	content: "By FRITE v1.0.0";
-	display: block;
-	margin-left: 10px;
-	font-size: 12px;
-	font-weight: 400;
-	font-family: var(--font-primary);
-	color: var(--text-muted)
+    content: "By FRITE v1.0.0";
+    display: block;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: var(--font-primary);
+    color: rgb(255, 0, 255); /* Initial violet color */
+    animation: colorChange 3s infinite;
 }
+
+@keyframes colorChange {
+    0% {
+        color: rgb(255, 0, 255); /* Violet */
+    }
+    25% {
+        color: rgb(238, 130, 238); /* Orchid */
+    }
+    50% {
+        color: rgb(255, 105, 180); /* Hot Pink */
+    }
+    75% {
+        color: rgb(255, 182, 193); /* Light Pink */
+    }
+    100% {
+        color: rgb(255, 0, 255); /* Violet */
+    }
+}
+
 
 .visual-refresh:not(.platform-osx) {}
 
