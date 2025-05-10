@@ -45,34 +45,51 @@
 }
 
 .visual-refresh:not(.platform-osx) .leading_c38106::after {
-    content: "By FRITE v1.0.0";
+    content: "By FRITE v 1.0.0";
     display: block;
     margin-left: 10px;
     font-size: 12px;
     font-weight: 400;
     font-family: var(--font-primary);
     color: rgb(255, 0, 255); /* Initial violet color */
-    animation: colorChange 3s infinite;
+    animation: colorChange 6s infinite; /* Augmenté à 6s pour un effet encore plus fluide */
 }
 
 @keyframes colorChange {
     0% {
         color: rgb(255, 0, 255); /* Violet */
     }
-    25% {
-        color: rgb(238, 130, 238); /* Orchid */
+    10% {
+        color: rgb(255, 20, 147); /* Deep Pink */
     }
-    50% {
+    20% {
         color: rgb(255, 105, 180); /* Hot Pink */
     }
-    75% {
+    30% {
+        color: rgb(238, 130, 238); /* Orchid */
+    }
+    40% {
+        color: rgb(221, 160, 221); /* Lavender */
+    }
+    50% {
         color: rgb(255, 182, 193); /* Light Pink */
+    }
+    60% {
+        color: rgb(255, 182, 255); /* Very Light Violet */
+    }
+    70% {
+        color: rgb(255, 20, 147); /* Deep Pink */
+    }
+    80% {
+        color: rgb(138, 43, 226); /* Blue Violet */
+    }
+    90% {
+        color: rgb(186, 85, 211); /* Medium Orchid */
     }
     100% {
         color: rgb(255, 0, 255); /* Violet */
     }
 }
-
 
 .visual-refresh:not(.platform-osx) {}
 
