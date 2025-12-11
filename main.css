@@ -19,7 +19,7 @@
   }
 } /*!HELLO KITTY BY FRITE */
 .info__2debe::after {
-  content: "HelloKitty" " " "2.0.1";
+  content: "Hello kitty" " " "3.0.1";
   color: var(--text-muted);
   font-size: 12px;
   line-height: 1.3333333333;
@@ -27,7 +27,7 @@
   font-family: var(--font-primary);
 }
 .visual-refresh:not(.platform-osx) .leading_c38106::before {
-  content: "HelloKitty";
+  content: "Hello Kitty";
   position: static;
   margin-left: 10px;
   font-size: 16px;
@@ -37,7 +37,7 @@
   filter: drop-shadow(0 0 5px var(--hsl-main-color));
 }
 .visual-refresh:not(.platform-osx) .leading_c38106::after {
-  content: "2.0.1";
+  content: "3.0.1";
   position: static;
   margin-top: -5px;
   margin-left: 5px;
@@ -214,10 +214,10 @@
 }
 .refreshIconStroke__88a69 {
   r: 10 !important;
-  stroke: var(--interactive-active);
+  stroke: var(--interactive-text-active);
 }
 .refreshIcon__88a69 {
-  fill: var(--interactive-active);
+  fill: var(--interactive-text-active);
 }
 .radioIndicatorChecked__88a69 {
   color: var(--interactive-active);
@@ -226,7 +226,7 @@
   fill: none;
 }
 .radioIndicatorChecked__88a69 .refreshIconStroke__88a69 {
-  stroke: var(--interactive-active);
+  stroke: var(--interactive-text-active);
 }
 .radioBar__88a69 {
   background-color: var(--hsl-card-shading);
@@ -250,7 +250,7 @@
   filter: drop-shadow(0 0 3px var(--hsl-main-color));
 } /*!HELLO KITTY BY FRITE */
 .container__3f21e {
-  background: hsl(from var(--interactive-normal) h s l/0.2) !important;
+  background: hsl(from var(--interactive-text-default) h s l/0.2) !important;
 }
 .container__3f21e.checked__3f21e {
   background: var(--hsl-main-color) !important;
@@ -263,7 +263,7 @@
 }
 .top_aa8da2 .item_aa8da2.selected_aa8da2 {
   --selected-tab-item-color: var(--hsl-main-color);
-  color: var(--interactive-active);
+  color: var(--interactive-text-active);
 }
 :is(.topPill_aa8da2, .side_aa8da2)
   .themed_aa8da2.item_aa8da2:hover:not(.disabled_aa8da2) {
@@ -392,6 +392,12 @@ code {
 }
 .colorStreamerMode__6e2b9 {
   --custom-notice-background: hsl(from var(--hsl-streaming-color) h s l/.8);
+}
+.notice_c5cd6a {
+  background: hsl(from var(--hsl-main-color) h s l/0.8);
+}
+.button_c5cd6a:hover {
+  background: rgba(0, 0, 0, 0);
 } /*!HELLO KITTY BY FRITE */
 :is(.auto__99f8c, .auto_d125d2)::-webkit-scrollbar {
   width: 14px;
@@ -447,17 +453,7 @@ code {
 .textBadge__2b1f5 {
   background: var(--hsl-main-color) !important;
   color: var(--header-primary);
-} /*!HELLO KITTY BY FRITE */
-.refresh-fast-follow-guild-bg.visual-refresh .bg__960e4 {
-  background: var(--background-image) var(--background-position) /
-    var(--background-size) no-repeat;
-  background-attachment: var(--background-attachment);
-  filter: var(--background-filter);
-  z-index: -1;
-}
-.refresh-fast-follow-guild-bg.visual-refresh .guilds__5e434 {
-  background: rgba(0, 0, 0, 0);
-} /*!HELLO KITTY BY FRITE */
+} /*!HELLO KITTY BY FRITE */ /*!HELLO KITTY BY FRITE */
 .chat_f75fb0 {
   background: rgba(0, 0, 0, 0);
 }
@@ -471,7 +467,7 @@ code {
   border: none;
 }
 .chatContent_f75fb0,
-.scroller__28a87 {
+.scroller_f35c3c {
   background: hsl(
     from var(--hsl-background-shading) h s
       l/calc(var(--background-shading-percent) * 0.4)
@@ -545,12 +541,12 @@ code {
   );
 }
 .activeButtonChild_aa63ab {
-  color: var(--interactive-normal);
+  color: var(--interactive-text-default);
 }
 :is(.theme-light, .theme-dark)
   .button_aa63ab:is(:focus, :focus-within, :hover)
   .activeButtonChild_aa63ab {
-  color: var(--interactive-active);
+  color: var(--interactive-text-active);
 }
 .toolbar_bba883 {
   background-color: var(--hsl-popout-shading);
@@ -584,7 +580,13 @@ code {
 .pulseGradient__11664 {
   display: none;
 }
-.buttonSection__1405b.experimentButtonSection__1405b {
+.clipBadgeIcon__8c88a {
+  background: var(--hsl-main-color) !important;
+}
+.participantsButton__211d1 {
+  background: var(--hsl-popout-shading);
+}
+.buttonSection__1405b {
   background: var(--hsl-popout-shading);
   border: none;
   border-radius: 4px;
@@ -650,6 +652,10 @@ code {
 .content__235ca a {
   color: var(--text-link);
 }
+.hljs {
+  background: var(--hsl-card-shading);
+  border: 1px solid var(--border-normal);
+}
 .markup__75297 code {
   background: var(--hsl-card-shading);
 }
@@ -710,6 +716,7 @@ code {
 .mentioned__5126c {
   --background-mentioned: hsl(from var(--hsl-main-color) h s l/.1);
   --background-mentioned-hover: hsl(from var(--hsl-hover-color) h s l/.1);
+  background: var(--background-mentioned);
 }
 .mentioned__5126c:before {
   background-color: var(--hsl-main-color);
@@ -788,6 +795,9 @@ code {
   background: rgba(0, 0, 0, 0);
   border: none;
 }
+.modalContent__4d95d .codeView__4d95d {
+  background: rgba(0, 0, 0, 0);
+}
 .cozy_c19a55.hasThread_c19a55::after {
   border-color: var(--hsl-main-color);
 }
@@ -822,6 +832,7 @@ code {
   color: var(--hsl-main-color);
 }
 .embedCard__44492,
+.embedCard__44492.selected__44492,
 .footerContainer__44492 {
   background: var(--hsl-card-shading);
 }
@@ -898,7 +909,7 @@ code {
 .pill_a2c9e8.selected_a2c9e8 {
   background: var(--hsl-main-color);
   border-color: var(--hsl-main-color);
-  color: var(--interactive-active);
+  color: var(--interactive-text-active);
 }
 .pill_a2c9e8.selected_a2c9e8:not(.disabled_a2c9e8):hover {
   background: var(--hsl-hover-color);
@@ -1027,7 +1038,7 @@ code {
   border-color: var(--hsl-main-color);
 }
 .reactions__23977 .reactionMe__23977 .reactionCount__23977 {
-  color: var(--interactive-active);
+  color: var(--interactive-text-active);
 }
 :is(.reaction__23977, .reactionBtn__23977):hover {
   border: 1px solid var(--hsl-hover-color);
@@ -1066,7 +1077,7 @@ code {
 }
 .button__02a39:hover {
   background: var(--hsl-hover-color);
-  color: var(--interactive-active);
+  color: var(--interactive-text-active);
 } /*!HELLO KITTY BY FRITE */
 :is(.theme-dark, .theme-light) .themed__9293f {
   background: hsl(
@@ -1242,7 +1253,7 @@ code {
   background-color: rgba(0, 0, 0, 0);
 }
 .selected__91a9d .nameContainer__703b9 {
-  -webkit-text-fill-color: var(--interactive-active);
+  -webkit-text-fill-color: var(--interactive-text-active);
   text-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
 }
 .selected__91a9d .nameContainer__703b9:after {
@@ -1250,7 +1261,7 @@ code {
 }
 .selected__91a9d .truncated_c9d15c,
 .selected__91a9d strong {
-  color: var(--interactive-active);
+  color: var(--interactive-text-active);
   text-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
 }
 .selected__91a9d .ownerIcon__5d473 {
@@ -1657,7 +1668,7 @@ code {
 }
 .actionButton_f8fa06.highlight_f8fa06 {
   background-color: var(--hsl-card-shading);
-  color: var(--interactive-active);
+  color: var(--interactive-text-active);
 }
 .actionButton_f8fa06:hover {
   background: var(--hsl-hover-color);
@@ -1667,14 +1678,14 @@ code {
 }
 .actionButton_f8fa06.actionAccept_f8fa06:hover {
   background: var(--hsl-success-color);
-  color: var(--interactive-active);
+  color: var(--interactive-text-active);
 }
 .actionButton_f8fa06.actionDeny_f8fa06 {
   color: var(--hsl-danger-color);
 }
 .actionButton_f8fa06.actionDeny_f8fa06:hover {
   background: var(--hsl-danger-color);
-  color: var(--interactive-active);
+  color: var(--interactive-text-active);
 }
 .searchBar__5ec2f {
   border-width: 2px;
@@ -1819,7 +1830,8 @@ code {
       l/calc(var(--background-shading-percent) * 0.4)
   );
 }
-.row_d13feb {
+.row_d13feb,
+.row_d13feb:hover {
   background: var(--hsl-card-shading);
   border: var(--hsl-card-shading);
 }
@@ -1886,16 +1898,12 @@ code {
 .divider__1feb0 {
   margin-top: 0;
 }
-.shopCard_c3d04b {
+.productCardContainer_fcbddd {
   background: var(--hsl-card-shading);
   border: 2px solid rgba(0, 0, 0, 0);
 }
-.shopCard_c3d04b:hover {
+.productCardContainer_fcbddd:hover {
   border-color: var(--hsl-main-color);
-}
-.cardText_c3d04b {
-  background: rgba(0, 0, 0, 0);
-  border: none;
 }
 .skeleton__72fa0,
 .skeleton__08415 {
@@ -1964,47 +1972,47 @@ code {
 .selected__1a58a:hover {
   background: var(--hsl-main-color);
 } /*!HELLO KITTY BY FRITE */
-.lookFilled__3f413.select__3f413 {
+.lookFilled_a16aea.select_a16aea {
   box-shadow: none;
 }
-.lookFilled__3f413.select__3f413:hover {
+.lookFilled_a16aea.select_a16aea:hover {
   border: 1px solid var(--input-border);
 }
-.popout__3f413,
-.popout__3f413.popoutPositionTop__3f413 {
+.popout_a16aea,
+.popout_a16aea.popoutPositionTop_a16aea {
   background: var(--hsl-popout-shading);
   border: none;
 }
-.option__3f413 {
+.option_a16aea {
   border-radius: 8px;
   margin: 0 8px;
 }
-.option__3f413:hover {
+.option_a16aea:hover {
   background: var(--hsl-hover-color);
 }
-.option__3f413[aria-selected="true"] {
+.option_a16aea[aria-selected="true"] {
   background: var(--hsl-main-color);
 }
-.option__3f413[aria-selected="true"]:not(.option__3f413.multi__3f413) {
+.option_a16aea[aria-selected="true"]:not(.option_a16aea.multi_a16aea) {
   background: var(--hsl-main-color);
 }
-.selectedIcon__3f413 {
-  color: var(--interactive-active);
+.selectedIcon_a16aea {
+  color: var(--interactive-text-active);
 }
-.selectedIcon__3f413 circle {
+.selectedIcon_a16aea circle {
   fill: var(--hsl-main-color);
 }
-.multiSelectCheckbox__3f413.checked__3f413 {
-  background: var(--interactive-active);
+.multiSelectCheckbox_a16aea.checked_a16aea {
+  background: var(--interactive-text-active);
 }
-.multiSelectCheckbox__3f413.checked__3f413 path {
+.multiSelectCheckbox_a16aea.checked_a16aea path {
   fill: var(--hsl-main-color);
 }
-.optionPillItem__3f413 .optionPillBtn__3f413 {
+.optionPillItem_a16aea .optionPillBtn_a16aea {
   background: rgba(0, 0, 0, 0);
   border: none;
 }
-.optionPillItem__3f413 .optionPillBtn__3f413 .optionPillBtn__3f413 {
+.optionPillItem_a16aea .optionPillBtn_a16aea .optionPillBtn_a16aea {
   background: var(--hsl-main-color);
 } /*!HELLO KITTY BY FRITE */
 .recentMentionsPopout__95796 {
@@ -2051,7 +2059,7 @@ code {
 }
 .tutorialIcon__2692d {
   background: var(--hsl-main-color);
-  color: var(--interactive-active);
+  color: var(--interactive-text-active);
 }
 .messages__1ccd1 {
   background: var(--hsl-card-shading);
@@ -2083,14 +2091,14 @@ code {
   background-color: var(--hsl-danger-color);
 }
 .colorDanger_c1e9c4.focused_c1e9c4:not(.checkboxContainer_c1e9c4) path {
-  fill: var(--interactive-active);
+  fill: var(--interactive-text-active);
 }
 .colorDanger_c1e9c4:active:not(.hideInteraction_c1e9c4) {
   background-color: hsl(from var(--hsl-danger-color) h s l/0.8);
-  color: var(--interactive-active);
+  color: var(--interactive-text-active);
 }
 .colorDanger_c1e9c4:active:not(.hideInteraction_c1e9c4) .label_c1e9c4 {
-  color: var(--interactive-active);
+  color: var(--interactive-text-active);
 }
 .item_c1e9c4.focused_c1e9c4 .label_c1e9c4 {
   color: var(--header-primary);
@@ -2142,6 +2150,10 @@ code {
 }
 .tooltipBrand_c36707 .tooltipPointer_c36707 {
   border-top-color: var(--hsl-main-color);
+}
+.dialogWrapper_b1f768 {
+  background-color: var(--hsl-popout-shading);
+  border: none;
 } /*!HELLO KITTY BY FRITE */
 .contentWrapper__08434 {
   background: var(--hsl-popout-shading);
@@ -2222,26 +2234,26 @@ code {
 .firstPartyCategorySelected__3ad28:hover {
   background: var(--hsl-main-color);
 } /*!HELLO KITTY BY FRITE */
-.messagesPopoutWrap__45690 {
+.messagesPopoutWrap_e8b59c {
   background: var(--hsl-popout-shading);
   box-shadow: none;
 }
-.header__45690,
-.footer__45690 {
+.header_e8b59c,
+.footer_e8b59c {
   background: rgba(0, 0, 0, 0);
 }
-.messageGroupWrapper__45690 {
+.messageGroupWrapper_e8b59c {
   background: var(--background-mod-subtle);
   border: none;
 }
-.jumpButton__45690 {
+.jumpButton_e8b59c {
   background: var(--hsl-main-color);
   border-color: rgba(0, 0, 0, 0);
-  color: var(--interactive-active);
+  color: var(--interactive-text-active);
 }
-.jumpButton__45690:hover {
+.jumpButton_e8b59c:hover {
   background: var(--hsl-hover-color);
-  color: var(--interactive-active);
+  color: var(--interactive-text-active);
 } /*!HELLO KITTY BY FRITE */
 .container__55c99 {
   background: var(--hsl-popout-shading);
@@ -2254,21 +2266,21 @@ code {
   background-color: var(--hsl-hover-color);
 }
 .option__56fec:hover :is(.filter__56fec, .answer__56fec, .plusIcon__56fec) {
-  color: var(--interactive-active);
+  color: var(--interactive-text-active);
 }
 .option__56fec:hover
   :is(.searchResultChannelIcon__56fec, .searchResultChannelCategory__56fec) {
   opacity: 1;
 }
 .option__56fec:hover strong {
-  color: var(--interactive-active);
+  color: var(--interactive-text-active);
 }
 .option__56fec[aria-selected="true"] {
   background-color: var(--hsl-hover-color);
   box-shadow: none;
 }
 .option__56fec[aria-selected="true"] :is(strong, .plusIcon__56fec) {
-  color: var(--interactive-active);
+  color: var(--interactive-text-active);
 }
 .datePicker__56fec .datePickerHint__56fec .hintValue__56fec {
   background: var(--hsl-main-color);
@@ -2570,20 +2582,24 @@ code {
 .custom-user-profile-theme .top_aa8da2 .item_aa8da2.selected_aa8da2 {
   --selected-tab-item-color: var(--profile-gradient-primary-color);
 }
+.custom-user-profile-theme .primary_a22cb0 {
+  background-color: var(--control-background-primary-default);
+  border-color: var(--control-border-primary-default);
+}
+.custom-user-profile-theme .secondary_a22cb0 {
+  background-color: var(--control-background-secondary-default);
+  border-color: var(--control-border-secondary-default);
+}
 .custom-user-profile-theme ::-webkit-scrollbar-thumb {
   background-color: var(--profile-gradient-primary-color);
 }
 .custom-user-profile-theme .textarea__9daae {
   background: var(--user-profile-note-background-focus);
 }
-.custom-user-profile-theme .textarea__9daae:focus {
+.custom-user-profile-theme .textarea__9daae:focus,
+.custom-user-profile-theme .textarea__9daae:focus:hover {
   border-color: var(--profile-gradient-primary-color);
   background: var(--user-profile-note-background-focus);
-}
-.custom-user-profile-theme:is(.theme-light, .theme-dark)
-  .themeColor_fb7f94.secondary_fb7f94 {
-  background: var(--profile-gradient-button-color);
-  color: var(--button-filled-brand-text);
 }
 .user-profile-sidebar:not(.custom-user-profile-theme) {
   background: hsl(
@@ -2661,7 +2677,7 @@ code {
 .contentColumnDefault__23e6b {
   padding-top: 50px;
 }
-.container_fcf29c {
+.container__9a9f9 {
   background: var(--hsl-popout-shading);
   border: none;
 }
@@ -2717,6 +2733,9 @@ code {
 .default_e18686,
 .default_e18686:hover {
   background-color: var(--hsl-popout-shading);
+}
+.customColorPicker__459fb {
+  background: var(--hsl-popout-shading);
 } /*!HELLO KITTY BY FRITE */
 .standardSidebarView__23e6b {
   background: rgba(0, 0, 0, 0);
@@ -2728,7 +2747,36 @@ code {
   );
   padding: 20px 8px 60px 20px;
 } /*!HELLO KITTY BY FRITE */
-.selectedBackground_e681d1 {
+.fixedContent__409aa::after {
+  display: none;
+}
+.sectionLabel__409aa {
+  justify-content: center;
+}
+.sectionLabel__409aa::before {
+  content: "";
+  height: 2px;
+  flex-grow: 1;
+  background: linear-gradient(to left, var(--hsl-main-color) 50%, transparent);
+}
+.sectionLabel__409aa::after {
+  content: "";
+  height: 2px;
+  flex-grow: 1;
+  background: linear-gradient(to right, var(--hsl-main-color) 50%, transparent);
+}
+.label__409aa {
+  color: var(--hsl-main-color) !important;
+  margin: 0 5px;
+}
+.item_caf372:hover {
+  background: var(--background-modifier-hover);
+}
+.item_caf372.active_caf372 {
+  background: var(--hsl-main-color);
+}
+.content_e9e3ed,
+.contentHeader_e9e3ed {
   background: rgba(0, 0, 0, 0);
 }
 .accountProfileCard__1fed1 {
@@ -2751,6 +2799,13 @@ code {
 }
 .iconBadge__03991 {
   background: var(--hsl-main-color) !important;
+}
+.modalContent__39813.modalContent__39813 {
+  background: rgba(0, 0, 0, 0);
+}
+.fontButton_fc7677.selected_fc7677,
+.effectContainer_caa50c.selected_caa50c {
+  border: 1px solid var(--hsl-main-color);
 }
 .decorationGridItem_dfa67d {
   background: var(--background-mod-subtle);
@@ -2806,6 +2861,7 @@ code {
 .appDetailsContainer__50a54 .appDetailsSection__50a54 {
   background: var(--background-mod-subtle);
   padding: 16px;
+  margin: 0;
 }
 .appDetailsContainer__50a54 .appDetailsSection__50a54:active {
   background: var(--background-mod-subtle);
@@ -2855,6 +2911,10 @@ code {
 }
 .giftButton_b322b1:hover {
   background: rgba(0, 0, 0, 0);
+}
+.expandedProgressBarContainerSettingsPage_a61c56 {
+  background: var(--hsl-card-shading);
+  margin: 0;
 }
 .giftCard_a45ed3 {
   background: var(--hsl-card-shading);
@@ -2927,7 +2987,7 @@ code {
   background: rgba(0, 0, 0, 0);
   gap: 0;
 }
-.container__3f413 {
+.container_a16aea {
   flex-direction: unset;
 }
 .iconContainer__0ecc4 > foreignObject {
@@ -3035,7 +3095,7 @@ code {
 }
 .icon_d8f25b {
   background: var(--hsl-main-color);
-  color: var(--interactive-active);
+  color: var(--interactive-text-active);
 }
 .circleButton__5f97b {
   margin-left: 10px;
@@ -3238,7 +3298,7 @@ code {
   color: var(--text-default);
 }
 .contentInteractable__636a2 .submenuIcon__636a2 {
-  color: var(--interactive-normal);
+  color: var(--interactive-text-default);
 } /*!HELLO KITTY BY FRITE */
 .keyboard-mode .focusStroke_cc5dd2 {
   stroke: var(--focus-color);
@@ -3296,7 +3356,7 @@ code {
 }
 .iconBadge__2b1f5.isCurrentUserConnected__650eb {
   background: var(--hsl-main-color);
-} /*! HELLO KITTY BY FRITE */
+} /*!HELLO KITTY BY FRITE */
 .wrapperCommon__29444 .mainContent__29444 .name__29444 {
   flex: 1;
 }
@@ -3355,7 +3415,7 @@ code {
 }
 .icon__29444 {
   display: none;
-} /*! HELLO KITTY BY FRITE */
+} /*!HELLO KITTY BY FRITE */
 .newChannel__599fa {
   background: var(--hsl-main-color) !important;
   color: var(--header-primary);
@@ -3385,7 +3445,7 @@ code {
 }
 .unreadIcon__7aaec,
 .barText__7aaec {
-  color: var(--interactive-active) !important;
+  color: var(--interactive-text-active) !important;
 }
 .spineBorder__5b40b {
   background-color: var(--hsl-main-color);
@@ -3508,7 +3568,7 @@ code {
 }
 .voiceUser__07f91 .usernameSpeaking__07f91 {
   color: #fff;
-} /*! HELLO KITTY BY FRITE */
+} /*!HELLO KITTY BY FRITE */
 .privateChannels_e6b769 {
   background: hsl(
     from var(--hsl-background-shading) h s
@@ -3576,7 +3636,7 @@ code {
 }
 .interactive__972a0.interactiveSelected__972a0 {
   background-color: rgba(0, 0, 0, 0);
-  color: var(--interactive-active);
+  color: var(--interactive-text-active);
 }
 .interactive__972a0.interactiveSelected__972a0::before {
   right: 0;
@@ -3584,13 +3644,13 @@ code {
   animation: cv-channel-select 0.3s ease-in-out;
 }
 .interactive__972a0.interactiveSelected__972a0 .activityStatusText__972a0 {
-  color: var(--interactive-active);
+  color: var(--interactive-text-active);
 }
 .interactive__972a0.interactiveSelected__972a0
   .activityStatusText__972a0
   strong {
-  color: var(--interactive-active);
-} /*! HELLO KITTY BY FRITE */
+  color: var(--interactive-text-active);
+} /*!HELLO KITTY BY FRITE */
 .sidebar__5e434 {
   background: rgba(0, 0, 0, 0);
 }
@@ -3687,7 +3747,7 @@ code {
   --streaming-color: #593695;
   --offline-color: #808080;
   --background-shading-percent: 100%;
-  --background-image: url(https://clearvision.github.io/images/sapphire.jpg);
+  --background-image: url(https://i.imgur.com/IyO0UDv.png);
   --background-position: center;
   --background-size: cover;
   --background-attachment: fixed;
@@ -3707,10 +3767,10 @@ code {
   --main-font: "gg sans", Whitney, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   --code-font: Consolas, "gg mono", "Liberation Mono", Menlo, Courier, monospace;
-  --channel-normal: var(--interactive-normal);
+  --channel-normal: var(--interactive-text-default);
   --channel-muted: var(--interactive-muted);
-  --channel-hover: var(--interactive-hover);
-  --channel-selected: var(--interactive-active);
+  --channel-hover: var(--interactive-text-hover);
+  --channel-selected: var(--interactive-text-active);
   --channel-selected-bg: var(--main-color);
   --channel-unread: var(--main-color);
   --channel-unread-hover: var(--hover-color);
