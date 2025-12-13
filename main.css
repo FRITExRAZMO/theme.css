@@ -19,7 +19,7 @@
   }
 } /*!HELLO KITTY BY FRITE */
 .info__2debe::after {
-  content: "Hello kitty" " " "3.0.1";
+  content: "Hello Kitty" " " "3.0.0";
   color: var(--text-muted);
   font-size: 12px;
   line-height: 1.3333333333;
@@ -37,7 +37,7 @@
   filter: drop-shadow(0 0 5px var(--hsl-main-color));
 }
 .visual-refresh:not(.platform-osx) .leading_c38106::after {
-  content: "3.0.1";
+  content: "3.0.0";
   position: static;
   margin-top: -5px;
   margin-left: 5px;
@@ -452,7 +452,7 @@ code {
 .numberBadge__2b1f5,
 .textBadge__2b1f5 {
   background: var(--hsl-main-color) !important;
-  color: var(--header-primary);
+  color: var(--text-strong);
 } /*!HELLO KITTY BY FRITE */ /*!HELLO KITTY BY FRITE */
 .chat_f75fb0 {
   background: rgba(0, 0, 0, 0);
@@ -644,7 +644,7 @@ code {
 }
 .botTagRegular__82f07 {
   background: var(--hsl-main-color);
-  color: var(--header-primary);
+  color: var(--text-strong);
 }
 .operations_bab751 a {
   color: var(--hsl-main-color);
@@ -949,7 +949,7 @@ code {
   background: var(--hsl-main-color);
 }
 .icon__7e6bb path {
-  fill: var(--header-primary);
+  fill: var(--interactive-icon-active);
 }
 .container__34c2c {
   background: rgba(0, 0, 0, 0);
@@ -963,7 +963,7 @@ code {
 }
 .icon__93db4 {
   background: var(--hsl-main-color);
-  color: var(--header-primary);
+  color: var(--interactive-icon-active);
 }
 .cta__93db4 {
   color: var(--hsl-main-color);
@@ -996,7 +996,7 @@ code {
   background: var(--hsl-main-color);
 }
 .icon__54b20 path {
-  fill: var(--header-primary);
+  fill: var(--interactive-icon-active);
 }
 .chatHeaderBar_a5700d {
   background-color: var(--hsl-popout-shading);
@@ -1368,7 +1368,7 @@ code {
 }
 .iconBackground__33980 {
   background: var(--hsl-main-color);
-  color: var(--header-primary);
+  color: var(--interactive-icon-active);
 }
 .selectionBox_b13085 {
   background: var(--background-mod-subtle);
@@ -1412,7 +1412,7 @@ code {
   background: var(--hsl-main-color);
 }
 .uploadDropModal_b78547 .inner_b78547 {
-  border-color: var(--header-primary);
+  border-color: var(--text-strong);
 } /*!HELLO KITTY BY FRITE */
 .selectorButton__0907c {
   background: var(--background-mod-subtle);
@@ -1692,7 +1692,7 @@ code {
 }
 .tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf {
   background-color: rgba(0, 0, 0, 0);
-  color: var(--text-secondary);
+  color: var(--text-subtle);
   border: none;
 }
 .tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf:hover {
@@ -1701,7 +1701,7 @@ code {
 .tabBar__133bf
   .addFriend__133bf.addFriend__133bf.addFriend__133bf[aria-selected="true"] {
   background-color: var(--hsl-main-color);
-  color: var(--text-primary);
+  color: var(--text-strong);
 }
 .addFriendInputWrapper__72ba7 {
   background: var(--hsl-input-shading);
@@ -1963,7 +1963,7 @@ code {
 }
 .contentTitle__13533 {
   padding: 4px 8px;
-  color: var(--header-primary);
+  color: var(--text-strong);
 }
 .wrapper_b1e4f3 {
   background: rgba(0, 0, 0, 0);
@@ -2039,7 +2039,7 @@ code {
 }
 .icon_d404a3 {
   background: var(--hsl-main-color);
-  color: var(--header-primary);
+  color: var(--interactive-icon-active);
 }
 .jumpButton_ed0c8c {
   background: var(--hsl-main-color);
@@ -2087,6 +2087,9 @@ code {
 .colorDefault_c1e9c4:active:not(.hideInteraction_c1e9c4) {
   background-color: var(--hsl-main-color);
 }
+.colorDanger_c1e9c4 .label_c1e9c4 {
+  color: var(--hsl-danger-color);
+}
 .colorDanger_c1e9c4.focused_c1e9c4 {
   background-color: var(--hsl-danger-color);
 }
@@ -2101,7 +2104,7 @@ code {
   color: var(--interactive-text-active);
 }
 .item_c1e9c4.focused_c1e9c4 .label_c1e9c4 {
-  color: var(--header-primary);
+  color: var(--interactive-text-active);
 }
 .status_a423bd[style*="rgb(130, 131, 139)"] {
   background-color: var(--hsl-offline-color) !important;
@@ -2296,7 +2299,7 @@ code {
 :is(.theme-light, .theme-dark)
   .calendarPicker_d27f17
   .react-datepicker__day-name {
-  color: var(--header-primary);
+  color: var(--text-strong);
 }
 .calendarPicker_d27f17 .react-datepicker__month {
   border: 1px solid var(--hsl-main-color);
@@ -2340,7 +2343,7 @@ code {
 }
 .icon__1b24f {
   background: var(--hsl-main-color);
-  color: var(--header-primary);
+  color: var(--interactive-icon-active);
 }
 .popout__76f04 {
   background-color: var(--hsl-popout-shading);
@@ -2877,7 +2880,7 @@ code {
 }
 .sessionIcon__803f2 {
   background: var(--hsl-main-color);
-  color: var(--header-primary);
+  color: var(--text-strong);
 }
 .connectContainer_c7f964,
 .connection_c7f964 {
@@ -3418,7 +3421,7 @@ code {
 } /*!HELLO KITTY BY FRITE */
 .newChannel__599fa {
   background: var(--hsl-main-color) !important;
-  color: var(--header-primary);
+  color: var(--text-strong);
 }
 .sidebarList__5e434 {
   border-top-left-radius: 10px;
@@ -3442,10 +3445,6 @@ code {
 .bar__3b95d {
   background-color: var(--hsl-main-color);
   border-color: var(--hsl-main-color);
-}
-.unreadIcon__7aaec,
-.barText__7aaec {
-  color: var(--interactive-text-active) !important;
 }
 .spineBorder__5b40b {
   background-color: var(--hsl-main-color);
@@ -3747,7 +3746,7 @@ code {
   --streaming-color: #593695;
   --offline-color: #808080;
   --background-shading-percent: 100%;
-  --background-image: url(https://i.imgur.com/IyO0UDv.png);
+  --background-image: url(https://clearvision.github.io/images/sapphire.jpg);
   --background-position: center;
   --background-size: cover;
   --background-attachment: fixed;
