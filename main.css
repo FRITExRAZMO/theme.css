@@ -19,7 +19,7 @@
   }
 } /*!HELLO KITTY BY FRITE */
 ._2debea61131de3de-info::after {
-  content: "Hello Kitty" " " "3.0.0";
+  content: "Hello Kitty" " " "2.0.0";
   color: var(--text-muted);
   font-size: 12px;
   line-height: 1.3333333333;
@@ -37,7 +37,7 @@
   filter: drop-shadow(0 0 5px var(--hsl-main-color));
 }
 .visual-refresh:not(.platform-osx) .c38106a3f0c3ca76-leading::after {
-  content: "3.0.0";
+  content: "2.0.0";
   position: static;
   margin-top: -5px;
   margin-left: 5px;
